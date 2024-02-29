@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 90vh;
+  background-color: #FAECD6;
+}
+.box {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.box form {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: #FAECD6;
+  border: solid 3px #820000;
+  border-radius: 20px;
+}
+.box form input {
+  display: inline-block;
+  width: 50vw;
+  height: 30px;
+  border-radius: 20px;
+  border: solid 3px #820000;
+  padding: 10px;
+}
+.box form button {
+  margin-top: 30px;
+  display: inline-block;
+  width: 50vw;
+  height: 50px;
+  background-color: #FAECD6;
+  border: solid 3px #820000;
+  color: #820000;
+}
+.box form button:hover {
+  background-color: #820000;
+  color: white;
+}
+.top_title {
+  display: inline-block;
+  width: 50vw;
+  text-align: center;
+  color: #820000;
+}
+h3.top_title {
+  display: inline-block;
+  width: 50vw;
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+}
